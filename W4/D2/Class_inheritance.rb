@@ -1,11 +1,13 @@
 class Employee
-    attr_reader :salary
-    def initialize
+    attr_reader :salary, :boss
+
+    def initialize(name, title, salary, boss)
         #name, title, salary, and boss.
-        @name
-        @title
-        @salary
-        @boss
+        @name = name
+        @title = title
+        @salary = salary
+        @boss = boss
+        @boss.managers << self
     end
 
     def bonus(multiplier)
@@ -14,8 +16,9 @@ class Employee
 end
 
 class Manager < Employee
-    def initialize
-        managers = [] #Array of Employee instances
+    attr_accessor :managers
+    def initialize(name, title, salary, boss)
+        @managers = [] #Array of Employee instances
         super 
     end
 
@@ -25,9 +28,15 @@ class Manager < Employee
 
     def salary_of_employee
         sum = 0
-        mangers.each do |employee|
+        @mangers.each do |employee|
             sum += employee.salary
         end
         sum
     end
 end
+
+p Ned = Manager.new("Ned", "Founder", 1000000, nil)
+p Darren = Manager.new("Darren", "Manager", 78000, Ned)
+
+p Ned.bonus(5)
+p Darren.bonus(5)
