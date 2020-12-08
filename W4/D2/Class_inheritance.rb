@@ -1,3 +1,4 @@
+require "byebug"
 class Employee
     attr_reader :salary, :boss
 
@@ -29,23 +30,20 @@ class Manager < Employee
     end
 
     def salary_of_employee
-        #basecase @manager
-        return @managers if @managers.length <= 1
-
-
+        array = @managers
         sum = 0
-        @managers.each do |employee|
-            if employee.is_a?(Array)
-                sum = employee.salary_of_employee
-            end
+        until array.empty?
+            employee = array.shift
             sum += employee.salary
+            array += employee.managers if employee.is_a?(Manager)
         end
         sum
+
     end
 end
 
-p Ned = Manager.new("Ned", "Founder", 1000000, nil)
-p Darren = Manager.new("Darren", "Manager", 78000, Ned)
+Ned = Manager.new("Ned", "Founder", 1000000, nil)
+Darren = Manager.new("Darren", "Manager", 78000, Ned)
 Shawna = Employee.new("Shawna", "TA", 12000, Darren)
 David = Employee.new("David", "TA", 10000, Darren)
 
