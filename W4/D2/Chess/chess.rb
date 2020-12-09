@@ -15,6 +15,7 @@ class Board
     end
 
     def move_piece(color, start_pos, end_pos) # finish later
+
     end
 
     def valid_pos?(pos)
@@ -63,3 +64,21 @@ class Piece
     end
 
  end
+
+class SlidingPiece < Piece
+    def initialize
+        super
+    end
+
+    def Symbol
+        rook = :r
+        bishop = :b
+        queen = :q
+
+    end
+
+    private
+    def move_dirs
+
+    end
+end
