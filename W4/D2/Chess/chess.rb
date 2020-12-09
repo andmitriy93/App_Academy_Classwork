@@ -19,7 +19,7 @@ class NullPiece < Piece
 end
 
 class Board
-    attr_reader :board, null_piece
+    attr_reader :board, :null_piece
     attr_writer :board
 
     def initialize
