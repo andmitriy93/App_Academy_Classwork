@@ -23,8 +23,8 @@ class Board
         @null_piece = NullPiece.instance
     end
 
-    def [](pos)
-        row, col = pos
+    def [](pos) # =>3
+        row, col = pos 
         @board[row][col]
     end
     
@@ -33,18 +33,19 @@ class Board
         @board[row][col] = value
     end
 
-    def move_piece(start_pos, end_pos)
-        piece = @board[start_pos]
+    def move_piece(start_pos, end_pos) #start_pos => array
+        piece = self[start_pos]
         if piece != @null_piece
             raise StartError
         elsif !valid_pos?(end_pos)
             raise EndError
         end
-        @board[end_pos] = piece
-        @board[start_pos] = nil
+        self[end_pos] = piece
+        self[start_pos] = nil
     end
 
     def valid_pos?(pos)
+        self[pos] == nil
     end
 
     def add_piece#(piece, pos)
