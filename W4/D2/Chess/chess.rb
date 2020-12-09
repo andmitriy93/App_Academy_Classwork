@@ -1,3 +1,18 @@
+
+class StartError < StandardError
+    def message
+        "No Piece at start position"
+    end
+end
+
+
+class EndError < StandardError
+    def message
+        "No Piece at end position"
+    end
+end
+
+
 class Board
     attr_reader :board, null_piece
     attr_writer :board
@@ -14,7 +29,13 @@ class Board
         @board[row][col] = value
     end
 
-    def move_piece(color, start_pos, end_pos) # finish later
+    def move_piece(start_pos, end_pos) # finish later
+        if @board[start_pos] == @null_piece
+            piece
+            raise StartError
+        elsif !valid_pos?(end_pos)
+            raise EndError
+        end
 
     end
 
@@ -29,7 +50,21 @@ class Board
     def checkmate?(color)
     end
 
-    
+    def in_check?(color)
+    end
+
+    def find_king(color)
+        # assume pieces is an array of piece objects
+        array = pieces
+        array.each do |piece|
+            if piece.is_a?(King) && piece.color == color
+                return piece.pos
+            end
+        end
+    end
+
+    def pieces
+    end
 
 end
 
