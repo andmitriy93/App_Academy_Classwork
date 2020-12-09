@@ -1,23 +1,29 @@
 require_relative "piece"
 
 module Cardinal
-    HORIZONTAL = [1, 0]
-    VERTICAL = [0, 1]
-
     def horizontal_moves(pos)
-        all_possible_moves = []
+        horizontal = []
                 
-        (0..7).each do |col|
-            all_possible_moves << [pos[0], col] if pos[1] != col
+        (0..7).each do |row|
+            horizontal << [row, pos[1]]
         end
         
-        all_possible_moves
+        horizontal - pos
     end
 
     def vertical_moves(pos)
-        possible_vertical_moves = []
+        vertical = []
+        (0..7).each do |col|
+            vertical << [pos[0], col]
+        end
+        vertical - pos
+    end
+
+    def cardinal_moves(pos)
+        return horizontal_moves(pos) + vertical_moves(pos)
     end
 end
+
 
 class Moves
 

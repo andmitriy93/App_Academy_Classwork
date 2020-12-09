@@ -1,6 +1,7 @@
 
 require "singleton"
 require_relative "board"
+require_relative "moves"
 
 class Piece
     def initialize(color, board, pos)
@@ -61,6 +62,8 @@ end
 
 
 class Rook < Piece
+    include Cardinal
+
     def initialize(color, board, pos)
         super
     end
