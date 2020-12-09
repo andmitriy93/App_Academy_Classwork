@@ -1,10 +1,11 @@
 
 require "singleton"
+require_relative "board"
 
 class Piece
     def initialize(color, board, pos)
         @color = color
-        @board = Board.new
+        @board = board
         @pos = pos
     end
 
@@ -14,7 +15,7 @@ class Piece
     def empty?
     end
 
-    def valid_moves
+    def valid_moves 
         # possible moves for this type of Piece
     end
 
@@ -56,4 +57,13 @@ class NullPiece# < Piece
     def initialize#(color, board, pos)
         #super
     end
+end
+
+
+class Rook < Piece
+    def initialize(color, board, pos)
+        super
+    end
+
+    
 end
