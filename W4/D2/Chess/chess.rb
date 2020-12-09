@@ -1,5 +1,5 @@
 
-require "Singleton"
+require "singleton"
 
 class StartError < StandardError
     def message
@@ -14,12 +14,8 @@ class EndError < StandardError
     end
 end
 
-class NullPiece < Piece
-    include Singleton
-end
-
 class Board
-    attr_reader :board, null_piece
+    attr_reader :board, :null_piece
     attr_writer :board
 
     def initialize
@@ -52,8 +48,10 @@ class Board
     def add_piece(piece, pos)
         @board[pos] = piece
         @board.map!.with_index do |row, idx|
-            row.map! do |ele|
-                ele = NullPiece.instance
+            if idx == 0 || idx == 1 || idx == @board.length - 1 || idx == @board.length - 2
+                row.map! do |ele|
+                    ele = NullPiece.instance
+                end
             end
         end
     end
@@ -126,5 +124,12 @@ class SlidingPiece < Piece
     private
     def move_dirs
 
+    end
+end
+
+class NullPiece < Piece
+    include Singleton
+    def initialize(color, board, pos)
+        super
     end
 end
