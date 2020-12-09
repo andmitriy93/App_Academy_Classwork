@@ -1,4 +1,6 @@
 
+require "Singleton"
+
 class StartError < StandardError
     def message
         "No Piece at start position"
@@ -12,10 +14,14 @@ class EndError < StandardError
     end
 end
 
+class NullPiece < Piece
+    include Singleton
+end
 
 class Board
     attr_reader :board, null_piece
     attr_writer :board
+
     def initialize
         @board = Array.new(8) {Array.new(8)}
         @null_piece = NullPiece
@@ -29,22 +35,27 @@ class Board
         @board[row][col] = value
     end
 
-    def move_piece(start_pos, end_pos) # finish later
-        if @board[start_pos] == @null_piece
-            piece
+    def move_piece(start_pos, end_pos)
+        piece = @board[start_pos]
+        if piece != @null_piece
             raise StartError
         elsif !valid_pos?(end_pos)
             raise EndError
         end
-
+        @board[end_pos] = piece
+        @board[start_pos] = nil
     end
 
     def valid_pos?(pos)
-        pos == @null_piece
     end
 
     def add_piece(piece, pos)
         @board[pos] = piece
+        @board.map!.with_index do |row, idx|
+            row.map! do |ele|
+                ele = NullPiece.instance
+            end
+        end
     end
 
     def checkmate?(color)
