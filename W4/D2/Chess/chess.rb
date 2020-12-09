@@ -62,7 +62,7 @@ end
 
 
 class Rook < Piece
-    include Cardinal
+    include Slideable
 
     def initialize(color, board, pos)
         super

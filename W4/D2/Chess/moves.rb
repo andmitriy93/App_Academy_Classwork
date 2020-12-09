@@ -1,6 +1,16 @@
 require_relative "piece"
 
 module Slideable
+    def cardinal_moves(pos)
+        return horizontal_moves(pos) + vertical_moves(pos)
+    end
+
+    def diagonal_moves(pos)
+        return right_to_left(pos) + left_to_right(pos)
+    end
+
+    private
+
     def horizontal_moves(pos)
         horizontal = []
                 
@@ -18,13 +28,7 @@ module Slideable
         end
         vertical - pos
     end
-
-    def cardinal_moves(pos)
-        line = horizontal_moves(pos) + vertical_moves(pos)
-        diag = right_to_left(pos) + left_to_right(pos)
-        line + diag
-    end
-
+    
     def left_diagonal(pos)
         left_to_right = []
         (0..7).each do |x|
@@ -33,7 +37,7 @@ module Slideable
         end
         left_to_right - pos
     end
-
+    
     def right_diagonal(pos)
         right_to_left = []
         j = 7
@@ -46,8 +50,46 @@ module Slideable
 end
 
 
-class Moves
+
+module Stepable
+    
+    def knight_moves(pos)
+        possible_moves = [
+            [1, 2],
+            [1, -2],
+            [2, 1],
+            [2, -1],
+            [-1, 2],
+            [-1, -2],
+            [-2, 1],
+            [-2, -1]]
+
+        moves = []
+        possible_moves.each do |knight| 
+            ret = [knight[0] + pos[0], knight[1] + pos[1]]
+            moves << ret if 0 <= ret[0] && ret[0] <= 7 && 0 <= ret[1] && ret[1] <= 7
+        end
+        moves
+    end
+
+    def king_moves(pos)
+        possible_moves = [
+            [0, 1],
+            [1, 0],
+            [1, 1],
+            [1, -1],
+            [-1, 1],
+            [0, -1],
+            [-1, 0],
+            [-1, -1]]
+
+        moves = []
+        possible_moves.each do |move| 
+            ret = [move[0] + pos[0], move[1] + pos[1]]
+            moves << ret if 0 <= ret[0] && ret[0] <= 7 && 0 <= ret[1] && ret[1] <= 7
+        end
+        moves
+    end
+
 
 end
-
-
