@@ -20,12 +20,14 @@ class Board
 
     def initialize
         @board = Array.new(8) {Array.new(8)}
-        @null_piece = NullPiece
+        @null_piece = NullPiece.instance
     end
+
     def [](pos)
         row, col = pos
         @board[row][col]
     end
+    
     def []=(pos, value)
         row, col = pos
         @board[row][col] = value
@@ -45,18 +47,20 @@ class Board
     def valid_pos?(pos)
     end
 
-    def add_piece(piece, pos)
-        @board[pos] = piece
+    def add_piece#(piece, pos)
+        # @board[pos] = piece
         @board.map!.with_index do |row, idx|
             if idx == 0 || idx == 1 || idx == @board.length - 1 || idx == @board.length - 2
                 row.map! do |ele|
                     ele = NullPiece.instance
                 end
+            else
+                row
             end
         end
     end
 
-    def checkmate?(color)
+    def checkmate?(color) 
     end
 
     def in_check?(color)
@@ -127,9 +131,9 @@ class SlidingPiece < Piece
     end
 end
 
-class NullPiece < Piece
+class NullPiece# < Piece
     include Singleton
-    def initialize(color, board, pos)
-        super
+    def initialize#(color, board, pos)
+        #super
     end
 end
