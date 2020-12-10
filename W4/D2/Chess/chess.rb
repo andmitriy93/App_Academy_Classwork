@@ -35,23 +35,23 @@ class Piece
 
  end
 
-class SlidingPiece < Piece
-    def initialize
-        super
-    end
+# class SlidingPiece < Piece
+#     def initialize
+#         super
+#     end
 
-    def Symbol
-        rook = :r
-        bishop = :b
-        queen = :q
+#     def Symbol
+#         rook = :r
+#         bishop = :b
+#         queen = :q
 
-    end
+#     end
 
-    private
-    def move_dirs
+#     private
+#     def move_dirs
 
-    end
-end
+#     end
+# end
 
 class NullPiece# < Piece
     include Singleton
@@ -63,10 +63,9 @@ end
 
 class Rook < Piece
     include Slideable
-
+    attr_reader :board
     def initialize(color, board, pos)
         super
     end
-
     
 end

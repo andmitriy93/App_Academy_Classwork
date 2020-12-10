@@ -13,12 +13,29 @@ module Slideable
 
     def horizontal_moves(pos)
         horizontal = []
-                
-        (0..7).each do |row|
+        (pos[0]..7).each do |row|
             horizontal << [row, pos[1]]
         end
-        
+
+        pos[0].downto(0) do |row| 
+            if board[row, pos[1]] == @null_piece
+                break
+            else
+                horizontal << [row, pos[1]] 
+            end
+        end
         horizontal - pos
+        pos[0].upto(7) do |row| 
+            if board[row, pos[1]] == @null_piece
+                break
+            else
+                horizontal << [row, pos[1]] 
+            end
+        end
+        horizontal - pos
+        #[x, x, B, x, R, x, B, x]
+        
+        horizontal
     end
 
     def vertical_moves(pos)
