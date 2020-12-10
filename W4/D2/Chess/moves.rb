@@ -13,26 +13,22 @@ module Slideable
 
     def horizontal_moves(pos)
         horizontal = []
-        (pos[0]..7).each do |row|
-            horizontal << [row, pos[1]]
+
+        (pos[0] - 1).downto(0) do |row| 
+            if board[row, pos[1]] == @null_piece
+                break
+            else
+                horizontal << [row, pos[1]] 
+            end
         end
 
-        pos[0].downto(0) do |row| 
+        (pos[0] + 1).upto(7) do |row| 
             if board[row, pos[1]] == @null_piece
                 break
             else
                 horizontal << [row, pos[1]] 
             end
         end
-        horizontal - pos
-        pos[0].upto(7) do |row| 
-            if board[row, pos[1]] == @null_piece
-                break
-            else
-                horizontal << [row, pos[1]] 
-            end
-        end
-        horizontal - pos
         #[x, x, B, x, R, x, B, x]
         
         horizontal
@@ -40,28 +36,55 @@ module Slideable
 
     def vertical_moves(pos)
         vertical = []
-        (0..7).each do |col|
-            vertical << [pos[0], col]
+
+        (pos[0] - 1).downto(0) do |col| 
+            if board[pos[0], col] == @null_piece
+                break
+            else
+                vertical << [pos[0], col] 
+            end
         end
-        vertical - pos
-    end
-    
-    def left_diagonal(pos)
-        left_to_right = []
-        (0..7).each do |x|
-            position = [x,x]
-            left_to_right << position
+
+        (pos[0] + 1).upto(7) do |col| 
+            if board[pos[0], col] == @null_piece
+                break
+            else
+                vertical << [pos[0], col] 
+            end
         end
-        left_to_right - pos
+        vertical
     end
     
     def right_diagonal(pos)
-        right_to_left = []
-        j = 7
-        (0..7).each do |i|
-            position = [i, j - i]
-            right_to_left << position
+        left_to_right = []
+    
+        (pos[0] + 1).upto(7) do |i|
+            if board[i, i] == @null_piece
+                break
+            else
+                left_to_right << [i, i] 
+            end
         end
+
+        (pos[0] - 1).downto(0) do |i|
+            if board[i, i] == @null_piece
+                break
+            else
+                left_to_right << [i, i] 
+            end
+        end
+
+        left_to_right
+    end
+    
+    def left_diagonal(pos)
+        right_to_left = []
+        length = pos.length - 1
+        
+        (pos[1] + 1).downto(0) do |i|
+            
+        end
+
         right_to_left - pos
     end
 end
