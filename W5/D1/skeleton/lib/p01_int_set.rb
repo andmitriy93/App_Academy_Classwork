@@ -13,6 +13,7 @@ class MaxIntSet
   end
 
   def remove(num)
+    @store = @store[0...num] + @store[num+1..-1]
 
   end
 
@@ -31,11 +32,25 @@ end
 
 
 class IntSet
+  attr_reader :num_buckets
   def initialize(num_buckets = 20)
+    @num_buckets = num_buckets
     @store = Array.new(num_buckets) { Array.new }
   end
+  def [](pos)
+    row,col = pos
+    @store[row][col]
+  end
+  def []=(pos,value)
+    row,col = pos
+    @store[row][col]=value
+  end
+  
 
   def insert(num)
+    i = num % num_buckets
+    @store[i] << num
+
   end
 
   def remove(num)
