@@ -14,7 +14,6 @@ CREATE TABLE users (
 );
 
 
-
 CREATE TABLE questions (
     id INTEGER PRIMARY KEY,
     title TEXT NOT NULL,
@@ -23,7 +22,6 @@ CREATE TABLE questions (
 
     FOREIGN KEY (author_id) REFERENCES users(id)
 );
-
 
 
 -- Join table
@@ -36,7 +34,6 @@ CREATE TABLE question_follows (
     FOREIGN KEY (question_id) REFERENCES questions(id)
 );
 
--- DROP TABLE IF EXISTS replies;
 
 CREATE TABLE replies (
     id INTEGER PRIMARY KEY,
@@ -50,7 +47,6 @@ CREATE TABLE replies (
     FOREIGN KEY (author_id) REFERENCES users(id)
 );
 
--- DROP TABLE IF EXISTS question_likes;
 
 CREATE TABLE question_likes (
     id INTEGER PRIMARY KEY,
@@ -60,6 +56,9 @@ CREATE TABLE question_likes (
     FOREIGN KEY (user_id) REFERENCES users(id)
     FOREIGN KEY (liked_question_id) REFERENCES questions(id)
 );
+
+
+-- Seeding our tables
 
 INSERT INTO
     users (fname, lname)
@@ -81,12 +80,17 @@ VALUES
     (2, 2); -- User 2 following Question 2
 
 INSERT INTO
-    replies (subject_id, parent_id, author_id, body )
+    replies (subject_id, parent_id, author_id, body)
 VALUES
     (1, NULL, 2, 'I know right? Puts me to sleep...'), -- User 2 (Edwin) replies to User 1's question
     (1, 1, 1, 'Guess we have to drink more Starbucks lol'); -- User 1 (Dmitrii) replies to User 2's reply to his question
 
-
+INSERT INTO
+    question_likes (user_id, liked_question_id)
+VALUES
+    (1, 2),
+    (2, 1),
+    (2, 2);
 
 
 
