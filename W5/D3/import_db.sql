@@ -1,5 +1,6 @@
 PRAGMA foreign_keys = ON;
 
+
 DROP TABLE IF EXISTS question_likes;
 DROP TABLE IF EXISTS replies;
 DROP TABLE IF EXISTS question_follows;
