@@ -74,13 +74,23 @@ h2 + .user_review {
 }
 
 nav {
-  display: inline-block;
+  /* display: inline-block; */
+  float: right;
 }
 nav ul li {
   display: inline-block;
   padding: 20px;
 }
 
+img {
+  float: left;
+}
+
+.clearfix {
+  content: "";
+  clear: both;
+  display: block;
+}
 
 body {
   width: 900px;
