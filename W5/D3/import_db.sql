@@ -1,14 +1,19 @@
 PRAGMA foreign_keys = ON;
 
+DROP TABLE IF EXISTS question_likes;
+DROP TABLE IF EXISTS replies;
+DROP TABLE IF EXISTS question_follows;
+DROP TABLE IF EXISTS questions;
 DROP TABLE IF EXISTS users;
+
 
 CREATE TABLE users (
     id INTEGER PRIMARY KEY,
     fname TEXT NOT NULL,
-    lname TEXT NOT NULL,
+    lname TEXT NOT NULL
 );
 
-DROP TABLE IF EXISTS questions;
+
 
 CREATE TABLE questions (
     id INTEGER PRIMARY KEY,
@@ -19,7 +24,7 @@ CREATE TABLE questions (
     FOREIGN KEY (author_id) REFERENCES users(id)
 );
 
-DROP TABLE IF EXISTS question_follows;
+
 
 -- Join table
 CREATE TABLE question_follows (
@@ -31,7 +36,7 @@ CREATE TABLE question_follows (
     FOREIGN KEY (question_id) REFERENCES questions(id)
 );
 
-DROP TABLE IF EXISTS replies;
+-- DROP TABLE IF EXISTS replies;
 
 CREATE TABLE replies (
     id INTEGER PRIMARY KEY,
@@ -40,10 +45,12 @@ CREATE TABLE replies (
     author_id INTEGER NOT NULL,
     body TEXT NOT NULL,
 
-    FOREIGN KEY (subject_id) REFERENCES questions(id)
+    FOREIGN KEY (subject_id) REFERENCES questions(id),
+    FOREIGN KEY (parent_id) REFERENCES replies(id),
+    FOREIGN KEY (author_id) REFERENCES users(id)
 );
 
-DROP TABLE IF EXISTS question_likes;
+-- DROP TABLE IF EXISTS question_likes;
 
 CREATE TABLE question_likes (
     id INTEGER PRIMARY KEY,
@@ -63,21 +70,21 @@ VALUES
 INSERT INTO
     questions (title, body, author_id)
 VALUES
-    ('HTML ZZZZ', 'Why are HTML project so boring?', 1)
-    ('CSS TOO HARD', 'Why are CSS project so hard?', 2)
+    ('HTML ZZZZ', 'Why are HTML project so boring?', 1),
+    ('CSS TOO HARD', 'Why are CSS project so hard?', 2);
 
 INSERT INTO
-    question_follows (user_id, questions_id)
+    question_follows (user_id, question_id)
 VALUES
-    (1, 1) -- User 1 following Question 1
-    (1, 2) -- User 1 following Question 2
-    (2, 2) -- User 2 following Question 2
+    (1, 1), -- User 1 following Question 1
+    (1, 2), -- User 1 following Question 2
+    (2, 2); -- User 2 following Question 2
 
 INSERT INTO
     replies (subject_id, parent_id, author_id, body )
 VALUES
-    (1, NULL, 2, 'I know right? Puts me to sleep...') -- User 2 (Edwin) replies to User 1's question
-    (1, 1, 1, 'Guess we have to drink more Starbucks lol') -- User 1 (Dmitrii) replies to User 2's reply to his question
+    (1, NULL, 2, 'I know right? Puts me to sleep...'), -- User 2 (Edwin) replies to User 1's question
+    (1, 1, 1, 'Guess we have to drink more Starbucks lol'); -- User 1 (Dmitrii) replies to User 2's reply to his question
 
 
 
