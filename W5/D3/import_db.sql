@@ -1,4 +1,6 @@
+-- require "sqlite3"
 PRAGMA foreign_keys = ON;
+
 
 DROP TABLE IF EXISTS question_likes;
 DROP TABLE IF EXISTS replies;
