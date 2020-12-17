@@ -16,11 +16,13 @@ end
 # Tables to Make into Classes
 
 # 1. users (finished)
-# 2. questions (WIP)
-# 3. question_follows 
-# 4. replies question_likes
+# 2. questions (fnished)
+# 3. question_follows(finished) 
+# 4. replies(WIP)
+# 5 question_likes
 
 class User
+    attr_accessor :id, :lname, :fname
 
   def self.all
     data = QuestionsDatabase.instance.execute("SELECT * FROM users")
@@ -64,6 +66,8 @@ end
 
 
 class Question
+    attr_accessor :id, :title, :author_id, :body
+
   def self.all
     data = QuestionsDatabase.instance.execute("SELECT * FROM questions")
     data.map { |datum| Question.new(datum) }
@@ -117,4 +121,85 @@ class Question
 
     Question.new(question.first)
   end
+end
+
+class QuestionFollow
+    attr_accessor :id, :user_id, :question_id
+
+
+    def self.find_by_id(id)
+        q_follow = QuestionsDatabase.instance.execute(<<-SQL, id)
+          SELECT
+            *
+          FROM
+            questions
+          WHERE
+            id = ?
+        SQL
+        return nil unless q_follow.length > 0
+    
+        QuestionFollow.new(q_follow.first)
+      end
+
+    def initialize(options)
+        @id = options['id']
+        @user_id = options['user_id']
+        @question_id = options['question_id']
+    end
+
+    def find_by_user_id(user_id)
+        q_follows = QuestionsDatabase.instance.execute(<<-SQL, user_id)
+          SELECT
+            *
+          FROM
+            question_follows
+          WHERE
+            user_id = ?
+        SQL
+        return nil unless q_follows.length > 0
+    
+        q_follows.map { |q_follow| QuestionFollow.new(q_follow) }
+    end
+
+    def find_by_question_id(question_id)
+        q_follows = QuestionsDatabase.instance.execute(<<-SQL, question_id)
+          SELECT
+            *
+          FROM
+            question_follows
+          WHERE
+            question_id = ?
+        SQL
+        return nil unless q_follows.length > 0
+    
+        q_follows.map { |q_follow| QuestionFollow.new(q_follow) }
+    end
+end
+
+class Reply
+    attr_accessor :id, :subject_id, :parent_id, :author_id, :body
+
+    def self.find_by_id(id)
+        reply = QuestionsDatabase.instance.execute(<<-SQL, id)
+          SELECT
+            *
+          FROM
+            replies
+          WHERE
+            id = ?
+        SQL
+        return nil unless reply.length > 0
+    
+        Reply.new(reply.first)
+    end
+    
+    def initialize(options)
+        @id = options['id']
+        @subject_id = options['subject_id']
+        @parent_id = options['parent_id']
+        @author_id = options['author_id']
+        @body = options['body']
+    end
+    
+    
 end
