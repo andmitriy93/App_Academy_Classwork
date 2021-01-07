@@ -401,3 +401,39 @@ Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827
 Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043236696&livereload=1610043058065&livereload=1610043073010&livereload=1610043234076" for ::1 at 2021-01-08 00:13:56 +0600
 Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043238754&livereload=1610043058065&livereload=1610043073010&livereload=1610043234076" for ::1 at 2021-01-08 00:13:58 +0600
 Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043238753&livereload=1610043058065&livereload=1610043073010&livereload=1610043234076" for ::1 at 2021-01-08 00:13:58 +0600
+Started GET "/" for ::1 at 2021-01-08 00:38:27 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.8ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.8ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 82ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ca31f8b308b94f3d708f45c9d510a4e06b3ff96be2165cda13f4179d8f8baba8.css?body=1" for ::1 at 2021-01-08 00:38:28 +0600
+Started GET "/assets/application.self-ca31f8b308b94f3d708f45c9d510a4e06b3ff96be2165cda13f4179d8f8baba8.css?body=1&livereload=1610046452409" for ::1 at 2021-01-08 01:07:32 +0600
+Started GET "/assets/application.self-ca31f8b308b94f3d708f45c9d510a4e06b3ff96be2165cda13f4179d8f8baba8.css?body=1&livereload=1610046452411" for ::1 at 2021-01-08 01:07:32 +0600
+Started GET "/assets/application.self-ca31f8b308b94f3d708f45c9d510a4e06b3ff96be2165cda13f4179d8f8baba8.css?body=1&livereload=1610046704197" for ::1 at 2021-01-08 01:11:44 +0600
+Started GET "/assets/application.self-ca31f8b308b94f3d708f45c9d510a4e06b3ff96be2165cda13f4179d8f8baba8.css?body=1&livereload=1610046704199" for ::1 at 2021-01-08 01:11:44 +0600
+Started GET "/assets/application.self-ca31f8b308b94f3d708f45c9d510a4e06b3ff96be2165cda13f4179d8f8baba8.css?body=1&livereload=1610046704198" for ::1 at 2021-01-08 01:11:44 +0600
+Started GET "/assets/application.self-ca31f8b308b94f3d708f45c9d510a4e06b3ff96be2165cda13f4179d8f8baba8.css?body=1&livereload=1610046704201" for ::1 at 2021-01-08 01:11:44 +0600
+Started GET "/" for ::1 at 2021-01-08 01:11:44 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (16.8ms)
+Completed 500 Internal Server Error in 111ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299035603720'
+
+Started POST "/__better_errors/3ed721fa0e877f72/variables" for ::1 at 2021-01-08 01:11:44 +0600

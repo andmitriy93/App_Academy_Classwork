@@ -16,8 +16,9 @@
 
   > ul {
     > li {
-        font-family: ;
-
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: medium;
+        text-transform: inherit;
     }
   }
 
@@ -38,13 +39,14 @@
   
     }
   }
-  
+  // not sure is it the icon space and font-size
   i {
-
+    margin: 20px;
+    font-size: large;
   }
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  background-color: lightgray;
 }
