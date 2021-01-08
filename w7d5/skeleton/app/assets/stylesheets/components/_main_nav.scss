@@ -1,0 +1,52 @@
+.main-nav {
+    display: flex;
+    justify-content: horizontal;
+    
+    padding-top:10px ;
+    
+}
+
+.left-nav > ul,
+.right-nav > ul {
+    display: flex;
+    align-items: vertical;
+}
+
+.left-nav {
+
+  > ul {
+    > li {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: medium;
+        text-transform: inherit;
+    }
+  }
+
+  span {
+
+  }
+}
+
+.right-nav  {
+
+  > ul {
+
+    > li {
+  
+    }
+
+    > li:last-of-type {
+  
+    }
+  }
+  // not sure is it the icon space and font-size
+  i {
+    margin: 20px;
+    font-size: large;
+  }
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  background-color: lightgray;
+}

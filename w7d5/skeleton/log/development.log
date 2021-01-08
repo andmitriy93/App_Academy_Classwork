@@ -1,0 +1,1642 @@
+Started GET "/" for ::1 at 2020-10-08 16:36:51 -0700
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/carlosgarciajr/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 362ms (Views: 358.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5e5b219656abf8c4e83f7dfd5e5f4f415d8fe2348d16620303a4ed96d1b5a144.css?body=1" for ::1 at 2020-10-08 16:36:52 -0700
+Started GET "/" for ::1 at 2020-10-08 16:36:53 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.1ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 29ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 16:37:17 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 35ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-08 16:37:20 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-09 09:59:50 -0700
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/carlosgarciajr/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 353ms (Views: 350.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7aae4f884d21c0f895d0e25909b4a3857ca3f7bdd4412baf28bf32a8b1f558b1.css?body=1" for ::1 at 2020-10-09 09:59:51 -0700
+Started GET "/" for ::1 at 2020-10-09 10:00:16 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.1ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 34ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/new_office.jpg" for ::1 at 2020-10-09 10:00:16 -0700
+Started GET "/" for ::1 at 2020-10-09 10:03:51 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 109ms (Views: 104.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e229079662ba64eec2df88cc9898f07a6b5005419aa37c928d3d684a6d58d3e4.css?body=1" for ::1 at 2020-10-09 10:03:51 -0700
+Started GET "/assets/new_office.jpg" for ::1 at 2020-10-09 10:03:51 -0700
+Started GET "/" for ::1 at 2020-10-12 13:48:14 -0700
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/carlosgarciajr/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.1ms)
+  Rendered shared/_sections_nav.html.erb (0.1ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.5ms)
+Completed 500 Internal Server Error in 194ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - File to import not found or unreadable: base/grid.scss.
+Load paths:
+  /Users/carlosgarciajr/Documents/programming/app_academy_work/curriculum/html-css/projects/aa_times/skeleton/app/assets/images
+  /Users/carlosgarciajr/Documents/programming/app_academy_work/curriculum/html-css/projects/aa_times/skeleton/app/assets/javascripts
+  /Users/carlosgarciajr/Documents/programming/app_academy_work/curriculum/html-css/projects/aa_times/skeleton/app/assets/stylesheets
+  /Users/carlosgarciajr/Documents/programming/app_academy_work/curriculum/html-css/projects/aa_times/skeleton/vendor/assets/javascripts
+  /Users/carlosgarciajr/Documents/programming/app_academy_work/curriculum/html-css/projects/aa_times/skeleton/vendor/assets/stylesheets
+  /Users/carlosgarciajr/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/carlosgarciajr/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/carlosgarciajr/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.0.7.2/lib/assets/compiled:
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___270333905406359367_70279989431840'
+
+Started POST "/__better_errors/927a171e4587d656/variables" for ::1 at 2020-10-12 13:48:14 -0700
+Started GET "/" for ::1 at 2020-10-12 13:48:41 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.1ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 110ms (Views: 107.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1237ad35a9ee79bd64030d4638d1fd80f6734c490eb538e0dd01d7af3c16bf40.css?body=1" for ::1 at 2020-10-12 13:48:41 -0700
+Started GET "/" for ::1 at 2020-10-12 13:48:43 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 33ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-10-12 13:55:52 -0700
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/carlosgarciajr/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.1ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 257ms (Views: 254.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-758afe40c177e32f890a8b8e23f11571b5d1785af915c0789bd6a19191afc6ab.css?body=1" for ::1 at 2020-10-12 13:55:52 -0700
+Started GET "/assets/new_office.jpg" for ::1 at 2020-10-12 13:55:52 -0700
+Started GET "/" for ::1 at 2020-10-12 13:56:32 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.1ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.1ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 75ms (Views: 72.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e229079662ba64eec2df88cc9898f07a6b5005419aa37c928d3d684a6d58d3e4.css?body=1" for ::1 at 2020-10-12 13:56:32 -0700
+Started GET "/assets/new_office.jpg" for ::1 at 2020-10-12 13:56:32 -0700
+Started GET "/" for ::1 at 2020-10-12 13:56:33 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 34ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/new_office.jpg" for ::1 at 2020-10-12 13:56:33 -0700
+Started GET "/" for ::1 at 2020-10-12 13:57:15 -0700
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 92ms (Views: 88.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7aae4f884d21c0f895d0e25909b4a3857ca3f7bdd4412baf28bf32a8b1f558b1.css?body=1" for ::1 at 2020-10-12 13:57:15 -0700
+Started GET "/assets/new_office.jpg" for ::1 at 2020-10-12 13:57:15 -0700
+Started GET "/users" for ::1 at 2021-01-07 23:57:00 +0600
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/dmitriian/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:23:in `_call'
+rack-livereload (0.3.17) lib/rack/livereload.rb:14:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  Rendering /Users/dmitriian/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/dmitriian/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/dmitriian/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /Users/dmitriian/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (6.9ms)
+  Rendered /Users/dmitriian/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.9ms)
+  Rendering /Users/dmitriian/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/dmitriian/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.3ms)
+  Rendered /Users/dmitriian/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (159.2ms)
+Started GET "/" for ::1 at 2021-01-07 23:57:02 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 511ms (Views: 507.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2021-01-07 23:57:03 +0600
+Started GET "/assets/application.self-435c77af115d731b74a21bb2d6b1f5c49fc6d199453097ef6bcf6c2f330e9b7f.css?body=1" for ::1 at 2021-01-07 23:57:03 +0600
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2021-01-07 23:57:03 +0600
+Started GET "/assets/components/modal.self-52188644dbb47def5ee35ae02e69eb567ca9b664472357a8a5789dd39032a265.js?body=1" for ::1 at 2021-01-07 23:57:03 +0600
+Started GET "/assets/components/sidebar.self-2a1277f850a6fa21e1a974ef5152f177ac05516477d5081d593bb137b3d6808b.js?body=1" for ::1 at 2021-01-07 23:57:03 +0600
+Started GET "/assets/application.self-f571b9db02bf4ed04c38a6a29072ac382f7d4f47db1fab9817aeadb0d8665235.js?body=1" for ::1 at 2021-01-07 23:57:03 +0600
+Started GET "/" for ::1 at 2021-01-07 23:57:29 +0600
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/dmitriian/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 267ms (Views: 264.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-01-07 23:58:26 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 33ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-435c77af115d731b74a21bb2d6b1f5c49fc6d199453097ef6bcf6c2f330e9b7f.css?body=1&livereload=1610042789256" for ::1 at 2021-01-08 00:06:29 +0600
+Started GET "/assets/application.self-435c77af115d731b74a21bb2d6b1f5c49fc6d199453097ef6bcf6c2f330e9b7f.css?body=1&livereload=1610042789254" for ::1 at 2021-01-08 00:06:29 +0600
+Started GET "/assets/application.self-435c77af115d731b74a21bb2d6b1f5c49fc6d199453097ef6bcf6c2f330e9b7f.css?body=1&livereload=1610042791221" for ::1 at 2021-01-08 00:06:31 +0600
+Started GET "/assets/application.self-435c77af115d731b74a21bb2d6b1f5c49fc6d199453097ef6bcf6c2f330e9b7f.css?body=1&livereload=1610042791222" for ::1 at 2021-01-08 00:06:31 +0600
+Started GET "/assets/application.self-435c77af115d731b74a21bb2d6b1f5c49fc6d199453097ef6bcf6c2f330e9b7f.css?body=1&livereload=1610042793280" for ::1 at 2021-01-08 00:06:33 +0600
+Started GET "/assets/application.self-435c77af115d731b74a21bb2d6b1f5c49fc6d199453097ef6bcf6c2f330e9b7f.css?body=1&livereload=1610042793281" for ::1 at 2021-01-08 00:06:33 +0600
+Started GET "/assets/application.self-435c77af115d731b74a21bb2d6b1f5c49fc6d199453097ef6bcf6c2f330e9b7f.css?body=1&livereload=1610042894642" for ::1 at 2021-01-08 00:08:14 +0600
+Started GET "/assets/application.self-435c77af115d731b74a21bb2d6b1f5c49fc6d199453097ef6bcf6c2f330e9b7f.css?body=1&livereload=1610042894641" for ::1 at 2021-01-08 00:08:14 +0600
+Started GET "/assets/application.self-435c77af115d731b74a21bb2d6b1f5c49fc6d199453097ef6bcf6c2f330e9b7f.css?body=1&livereload=1610042950548" for ::1 at 2021-01-08 00:09:10 +0600
+Started GET "/assets/application.self-435c77af115d731b74a21bb2d6b1f5c49fc6d199453097ef6bcf6c2f330e9b7f.css?body=1&livereload=1610042950550" for ::1 at 2021-01-08 00:09:10 +0600
+Started GET "/assets/application.self-435c77af115d731b74a21bb2d6b1f5c49fc6d199453097ef6bcf6c2f330e9b7f.css?body=1&livereload=1610042954008" for ::1 at 2021-01-08 00:09:14 +0600
+Started GET "/assets/application.self-435c77af115d731b74a21bb2d6b1f5c49fc6d199453097ef6bcf6c2f330e9b7f.css?body=1&livereload=1610042954010" for ::1 at 2021-01-08 00:09:14 +0600
+Started GET "/" for ::1 at 2021-01-08 00:09:24 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 64ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1" for ::1 at 2021-01-08 00:09:24 +0600
+Started GET "/" for ::1 at 2021-01-08 00:09:25 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 37ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-01-08 00:09:27 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 32ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-01-08 00:09:28 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 42ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-01-08 00:09:30 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 31ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043012269" for ::1 at 2021-01-08 00:10:12 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043012271" for ::1 at 2021-01-08 00:10:12 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043013201" for ::1 at 2021-01-08 00:10:13 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043013203" for ::1 at 2021-01-08 00:10:13 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043014977" for ::1 at 2021-01-08 00:10:14 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043014979" for ::1 at 2021-01-08 00:10:14 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043020410" for ::1 at 2021-01-08 00:10:20 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043020409" for ::1 at 2021-01-08 00:10:20 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043023859" for ::1 at 2021-01-08 00:10:23 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043023861" for ::1 at 2021-01-08 00:10:23 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043027035" for ::1 at 2021-01-08 00:10:27 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043027036" for ::1 at 2021-01-08 00:10:27 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043029836" for ::1 at 2021-01-08 00:10:29 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043029838" for ::1 at 2021-01-08 00:10:29 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043032086" for ::1 at 2021-01-08 00:10:32 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043032087" for ::1 at 2021-01-08 00:10:32 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043035079" for ::1 at 2021-01-08 00:10:35 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043035080" for ::1 at 2021-01-08 00:10:35 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043047027" for ::1 at 2021-01-08 00:10:47 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043047028" for ::1 at 2021-01-08 00:10:47 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043055157" for ::1 at 2021-01-08 00:10:55 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043055158" for ::1 at 2021-01-08 00:10:55 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043057124" for ::1 at 2021-01-08 00:10:57 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043057125" for ::1 at 2021-01-08 00:10:57 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043058065" for ::1 at 2021-01-08 00:10:58 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043058065&livereload=1610043058065" for ::1 at 2021-01-08 00:10:58 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043073010&livereload=1610043058065" for ::1 at 2021-01-08 00:11:13 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043073010&livereload=1610043058065&livereload=1610043073010" for ::1 at 2021-01-08 00:11:13 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043076388&livereload=1610043058065&livereload=1610043073010" for ::1 at 2021-01-08 00:11:16 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043076391&livereload=1610043058065&livereload=1610043073010" for ::1 at 2021-01-08 00:11:16 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043078354&livereload=1610043058065&livereload=1610043073010" for ::1 at 2021-01-08 00:11:18 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043078356&livereload=1610043058065&livereload=1610043073010" for ::1 at 2021-01-08 00:11:18 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043163491&livereload=1610043058065&livereload=1610043073010" for ::1 at 2021-01-08 00:12:43 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043163490&livereload=1610043058065&livereload=1610043073010" for ::1 at 2021-01-08 00:12:43 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043166663&livereload=1610043058065&livereload=1610043073010" for ::1 at 2021-01-08 00:12:46 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043166665&livereload=1610043058065&livereload=1610043073010" for ::1 at 2021-01-08 00:12:46 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043227235&livereload=1610043058065&livereload=1610043073010" for ::1 at 2021-01-08 00:13:47 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043227236&livereload=1610043058065&livereload=1610043073010" for ::1 at 2021-01-08 00:13:47 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043228172&livereload=1610043058065&livereload=1610043073010" for ::1 at 2021-01-08 00:13:48 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043228174&livereload=1610043058065&livereload=1610043073010" for ::1 at 2021-01-08 00:13:48 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043229952&livereload=1610043058065&livereload=1610043073010" for ::1 at 2021-01-08 00:13:49 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043229951&livereload=1610043058065&livereload=1610043073010" for ::1 at 2021-01-08 00:13:49 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043234076&livereload=1610043058065&livereload=1610043073010" for ::1 at 2021-01-08 00:13:54 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043234076&livereload=1610043058065&livereload=1610043073010&livereload=1610043234076" for ::1 at 2021-01-08 00:13:54 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043236695&livereload=1610043058065&livereload=1610043073010&livereload=1610043234076" for ::1 at 2021-01-08 00:13:56 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043236696&livereload=1610043058065&livereload=1610043073010&livereload=1610043234076" for ::1 at 2021-01-08 00:13:56 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043238754&livereload=1610043058065&livereload=1610043073010&livereload=1610043234076" for ::1 at 2021-01-08 00:13:58 +0600
+Started GET "/assets/application.self-78347b2c7db2b676ee4a23ca3faafc312f5f513827558b45aae3f4c5de4a4993.css?body=1&livereload=1610043238753&livereload=1610043058065&livereload=1610043073010&livereload=1610043234076" for ::1 at 2021-01-08 00:13:58 +0600
+Started GET "/" for ::1 at 2021-01-08 00:38:27 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.8ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.8ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 82ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ca31f8b308b94f3d708f45c9d510a4e06b3ff96be2165cda13f4179d8f8baba8.css?body=1" for ::1 at 2021-01-08 00:38:28 +0600
+Started GET "/assets/application.self-ca31f8b308b94f3d708f45c9d510a4e06b3ff96be2165cda13f4179d8f8baba8.css?body=1&livereload=1610046452409" for ::1 at 2021-01-08 01:07:32 +0600
+Started GET "/assets/application.self-ca31f8b308b94f3d708f45c9d510a4e06b3ff96be2165cda13f4179d8f8baba8.css?body=1&livereload=1610046452411" for ::1 at 2021-01-08 01:07:32 +0600
+Started GET "/assets/application.self-ca31f8b308b94f3d708f45c9d510a4e06b3ff96be2165cda13f4179d8f8baba8.css?body=1&livereload=1610046704197" for ::1 at 2021-01-08 01:11:44 +0600
+Started GET "/assets/application.self-ca31f8b308b94f3d708f45c9d510a4e06b3ff96be2165cda13f4179d8f8baba8.css?body=1&livereload=1610046704199" for ::1 at 2021-01-08 01:11:44 +0600
+Started GET "/assets/application.self-ca31f8b308b94f3d708f45c9d510a4e06b3ff96be2165cda13f4179d8f8baba8.css?body=1&livereload=1610046704198" for ::1 at 2021-01-08 01:11:44 +0600
+Started GET "/assets/application.self-ca31f8b308b94f3d708f45c9d510a4e06b3ff96be2165cda13f4179d8f8baba8.css?body=1&livereload=1610046704201" for ::1 at 2021-01-08 01:11:44 +0600
+Started GET "/" for ::1 at 2021-01-08 01:11:44 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (16.8ms)
+Completed 500 Internal Server Error in 111ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299035603720'
+
+Started POST "/__better_errors/3ed721fa0e877f72/variables" for ::1 at 2021-01-08 01:11:44 +0600
+Started GET "/" for ::1 at 2021-01-08 01:20:25 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (2.7ms)
+  Rendered shared/_masthead.html.erb (0.9ms)
+  Rendered shared/_sections_nav.html.erb (2.3ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (28.2ms)
+Completed 500 Internal Server Error in 121ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299081838160'
+
+Started POST "/__better_errors/51905d4d4c61906d/variables" for ::1 at 2021-01-08 01:20:26 +0600
+Started GET "/" for ::1 at 2021-01-08 01:22:38 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.4ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299024990400'
+
+Started POST "/__better_errors/e7f3d04bb46bb80a/variables" for ::1 at 2021-01-08 01:22:38 +0600
+Started GET "/" for ::1 at 2021-01-08 01:22:39 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.0ms)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299021996420'
+
+Started POST "/__better_errors/1d6dda9858b47afb/variables" for ::1 at 2021-01-08 01:22:40 +0600
+Started GET "/" for ::1 at 2021-01-08 01:22:45 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (1.0ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (16.1ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299081043180'
+
+Started POST "/__better_errors/d05ab1ca46c9405c/variables" for ::1 at 2021-01-08 01:22:46 +0600
+Started GET "/" for ::1 at 2021-01-08 01:22:53 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.0ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299002757580'
+
+Started POST "/__better_errors/4166d2e285559542/variables" for ::1 at 2021-01-08 01:22:53 +0600
+Started GET "/" for ::1 at 2021-01-08 01:23:01 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.1ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299021634380'
+
+Started POST "/__better_errors/1fc4f52de19850e2/variables" for ::1 at 2021-01-08 01:23:01 +0600
+Started GET "/" for ::1 at 2021-01-08 01:23:05 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (16.5ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299035605300'
+
+Started POST "/__better_errors/d9c411b16b244a30/variables" for ::1 at 2021-01-08 01:23:06 +0600
+Started GET "/" for ::1 at 2021-01-08 01:23:10 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299073911240'
+
+Started POST "/__better_errors/bd8c29b04acc34cf/variables" for ::1 at 2021-01-08 01:23:10 +0600
+Started GET "/" for ::1 at 2021-01-08 01:23:13 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.1ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299026381480'
+
+Started POST "/__better_errors/ab88cfa72d815c2b/variables" for ::1 at 2021-01-08 01:23:13 +0600
+Started GET "/" for ::1 at 2021-01-08 01:23:14 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.1ms)
+  Rendered static_pages/index.html.erb within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299076952160'
+
+Started POST "/__better_errors/7b1032ba65c3e892/variables" for ::1 at 2021-01-08 01:23:14 +0600
+Started GET "/" for ::1 at 2021-01-08 01:23:15 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.6ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299089761920'
+
+Started POST "/__better_errors/df6940202361ddfe/variables" for ::1 at 2021-01-08 01:23:16 +0600
+Started GET "/" for ::1 at 2021-01-08 01:23:18 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.6ms)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299073794860'
+
+Started POST "/__better_errors/9423bde3401bbf4f/variables" for ::1 at 2021-01-08 01:23:18 +0600
+Started GET "/" for ::1 at 2021-01-08 01:23:27 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.0ms)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299004286940'
+
+Started POST "/__better_errors/8b61f88236022b5b/variables" for ::1 at 2021-01-08 01:23:27 +0600
+Started GET "/" for ::1 at 2021-01-08 01:23:30 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (11.5ms)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299026007760'
+
+Started POST "/__better_errors/6f4ff862ac2f59b8/variables" for ::1 at 2021-01-08 01:23:30 +0600
+Started GET "/" for ::1 at 2021-01-08 01:23:37 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.1ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299027091580'
+
+Started POST "/__better_errors/02b2072e6174c4bb/variables" for ::1 at 2021-01-08 01:23:37 +0600
+Started GET "/" for ::1 at 2021-01-08 01:23:41 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (16.6ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299073715240'
+
+Started POST "/__better_errors/d2c7d0138071652c/variables" for ::1 at 2021-01-08 01:23:41 +0600
+Started GET "/" for ::1 at 2021-01-08 01:23:53 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.4ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299081920440'
+
+Started POST "/__better_errors/3389c7e23c0f9f42/variables" for ::1 at 2021-01-08 01:23:53 +0600
+Started GET "/" for ::1 at 2021-01-08 01:23:56 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (367.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (372.4ms)
+Completed 500 Internal Server Error in 382ms (ActiveRecord: 0.0ms)
+
+
+
+NameError - undefined local variable or method `path' for #<#<Class:0x00007fdf8640aa20>:0x00007fdf88d1ec40>:
+  app/views/shared/_masthead.html.erb:13:in `_app_views_shared__masthead_html_erb__1240662243052635615_70299025139240'
+  app/views/static_pages/index.html.erb:2:in `_app_views_static_pages_index_html_erb___1899213705900567927_70299024974100'
+
+Started POST "/__better_errors/55e5246ce90534b8/variables" for ::1 at 2021-01-08 01:23:57 +0600
+Started GET "/" for ::1 at 2021-01-08 01:23:58 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.9ms)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299025648420'
+
+Started POST "/__better_errors/a6c7f8890aa51cc9/variables" for ::1 at 2021-01-08 01:23:58 +0600
+Started GET "/" for ::1 at 2021-01-08 01:24:03 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (11.0ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299027090560'
+
+Started POST "/__better_errors/369673eac0e4feba/variables" for ::1 at 2021-01-08 01:24:03 +0600
+Started GET "/" for ::1 at 2021-01-08 01:24:04 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (16.1ms)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299077579300'
+
+Started POST "/__better_errors/4aed1a01cddb0747/variables" for ::1 at 2021-01-08 01:24:04 +0600
+Started GET "/" for ::1 at 2021-01-08 01:24:07 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.5ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299082225840'
+
+Started POST "/__better_errors/07bfe5c6773aacbd/variables" for ::1 at 2021-01-08 01:24:07 +0600
+Started GET "/" for ::1 at 2021-01-08 01:24:10 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.9ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299030936900'
+
+Started POST "/__better_errors/0ffc1aa1a73375c3/variables" for ::1 at 2021-01-08 01:24:11 +0600
+Started GET "/" for ::1 at 2021-01-08 01:24:16 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (19.5ms)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299077224420'
+
+Started POST "/__better_errors/fd5221ca9ee0e92d/variables" for ::1 at 2021-01-08 01:24:16 +0600
+Started GET "/" for ::1 at 2021-01-08 01:24:17 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (351.1ms)
+  Rendered static_pages/index.html.erb within layouts/application (359.1ms)
+Completed 500 Internal Server Error in 373ms (ActiveRecord: 0.0ms)
+
+
+
+NameError - undefined local variable or method `path' for #<#<Class:0x00007fdf8640aa20>:0x00007fdf867d7888>:
+  app/views/shared/_masthead.html.erb:14:in `_app_views_shared__masthead_html_erb__1240662243052635615_70299026008480'
+  app/views/static_pages/index.html.erb:2:in `_app_views_static_pages_index_html_erb___1899213705900567927_70299025844760'
+
+Started POST "/__better_errors/afb0932a965e3ff3/variables" for ::1 at 2021-01-08 01:24:17 +0600
+Started GET "/" for ::1 at 2021-01-08 01:24:18 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (16.1ms)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299081070540'
+
+Started POST "/__better_errors/11d5e54661c9e028/variables" for ::1 at 2021-01-08 01:24:18 +0600
+Started GET "/" for ::1 at 2021-01-08 01:24:21 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.3ms)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299031113480'
+
+Started POST "/__better_errors/fdd84f33a26bcc33/variables" for ::1 at 2021-01-08 01:24:21 +0600
+Started GET "/" for ::1 at 2021-01-08 01:24:24 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.0ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299004280960'
+
+Started POST "/__better_errors/971f91fc49d18b0c/variables" for ::1 at 2021-01-08 01:24:24 +0600
+Started GET "/" for ::1 at 2021-01-08 01:24:28 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.1ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299077385220'
+
+Started POST "/__better_errors/6fe20412cadfb1e3/variables" for ::1 at 2021-01-08 01:24:28 +0600
+Started GET "/" for ::1 at 2021-01-08 01:24:31 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (11.9ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299021406180'
+
+Started POST "/__better_errors/6a7f37d12be5dbff/variables" for ::1 at 2021-01-08 01:24:31 +0600
+Started GET "/" for ::1 at 2021-01-08 01:24:32 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (18.9ms)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299072740800'
+
+Started POST "/__better_errors/090d8ae91cb90221/variables" for ::1 at 2021-01-08 01:24:33 +0600
+Started GET "/" for ::1 at 2021-01-08 01:24:37 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.3ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299027089120'
+
+Started POST "/__better_errors/25302d286f527a90/variables" for ::1 at 2021-01-08 01:24:37 +0600
+Started GET "/" for ::1 at 2021-01-08 01:24:40 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (16.3ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299014345940'
+
+Started POST "/__better_errors/d328e8050b2f6aa8/variables" for ::1 at 2021-01-08 01:24:40 +0600
+Started GET "/" for ::1 at 2021-01-08 01:24:45 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.7ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.6ms)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299082223000'
+
+Started POST "/__better_errors/3cc9894bc6bd8dfd/variables" for ::1 at 2021-01-08 01:24:45 +0600
+Started GET "/" for ::1 at 2021-01-08 01:29:23 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.9ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.6ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (17.7ms)
+Completed 500 Internal Server Error in 86ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299026935380'
+
+Started POST "/__better_errors/cba784e9eb418c18/variables" for ::1 at 2021-01-08 01:29:23 +0600
+Started GET "/" for ::1 at 2021-01-08 01:29:26 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.3ms)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299073738480'
+
+Started POST "/__better_errors/97e643a31cb1e57c/variables" for ::1 at 2021-01-08 01:29:26 +0600
+Started GET "/" for ::1 at 2021-01-08 01:29:27 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (19.4ms)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299072636360'
+
+Started POST "/__better_errors/44ed3bbe59b6f11e/variables" for ::1 at 2021-01-08 01:29:28 +0600
+Started GET "/" for ::1 at 2021-01-08 01:29:29 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.2ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299077483800'
+
+Started POST "/__better_errors/b2b1365ea23d45a7/variables" for ::1 at 2021-01-08 01:29:29 +0600
+Started GET "/" for ::1 at 2021-01-08 01:29:34 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.0ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299012597460'
+
+Started POST "/__better_errors/322379be260a7348/variables" for ::1 at 2021-01-08 01:29:34 +0600
+Started GET "/" for ::1 at 2021-01-08 01:29:38 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.9ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299073565380'
+
+Started POST "/__better_errors/1a0a0d3c508fa393/variables" for ::1 at 2021-01-08 01:29:38 +0600
+Started GET "/" for ::1 at 2021-01-08 01:29:44 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.7ms)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299025469340'
+
+Started POST "/__better_errors/857f3cc06f609e66/variables" for ::1 at 2021-01-08 01:29:44 +0600
+Started GET "/" for ::1 at 2021-01-08 01:29:49 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.1ms)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299073402200'
+
+Started POST "/__better_errors/88106a2cee4b99b0/variables" for ::1 at 2021-01-08 01:29:50 +0600
+Started GET "/" for ::1 at 2021-01-08 01:29:51 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.6ms)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299004609980'
+
+Started POST "/__better_errors/c86a31eed0a943e6/variables" for ::1 at 2021-01-08 01:29:52 +0600
+Started GET "/" for ::1 at 2021-01-08 01:30:12 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (11.8ms)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299076865820'
+
+Started POST "/__better_errors/b3c6492ade305bc5/variables" for ::1 at 2021-01-08 01:30:12 +0600
+Started GET "/" for ::1 at 2021-01-08 01:30:17 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.3ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299082338540'
+
+Started POST "/__better_errors/0199b90d1fad6bc6/variables" for ::1 at 2021-01-08 01:30:17 +0600
+Started GET "/" for ::1 at 2021-01-08 01:30:20 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.9ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299072785380'
+
+Started POST "/__better_errors/f62d478828c5a2f4/variables" for ::1 at 2021-01-08 01:30:21 +0600
+Started GET "/" for ::1 at 2021-01-08 01:30:21 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.2ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299073705360'
+
+Started POST "/__better_errors/66e8163c1324976f/variables" for ::1 at 2021-01-08 01:30:22 +0600
+Started GET "/" for ::1 at 2021-01-08 01:30:23 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299021256860'
+
+Started POST "/__better_errors/0673a2c48c49f9cd/variables" for ::1 at 2021-01-08 01:30:24 +0600
+Started GET "/" for ::1 at 2021-01-08 01:30:26 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.3ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299020023600'
+
+Started POST "/__better_errors/ee563b8381c62b5a/variables" for ::1 at 2021-01-08 01:30:26 +0600
+Started GET "/" for ::1 at 2021-01-08 01:30:30 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (11.9ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299073777240'
+
+Started POST "/__better_errors/7024e9d13e605533/variables" for ::1 at 2021-01-08 01:30:30 +0600
+Started GET "/" for ::1 at 2021-01-08 01:31:16 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.4ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299005084580'
+
+Started POST "/__better_errors/919cde0cb2b74aaf/variables" for ::1 at 2021-01-08 01:31:16 +0600
+Started GET "/" for ::1 at 2021-01-08 01:31:20 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.5ms)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299020105400'
+
+Started POST "/__better_errors/904670aa48ad9cf0/variables" for ::1 at 2021-01-08 01:31:20 +0600
+Started GET "/" for ::1 at 2021-01-08 01:31:24 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.4ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299073795880'
+
+Started POST "/__better_errors/5252ccb11736c196/variables" for ::1 at 2021-01-08 01:31:24 +0600
+Started GET "/" for ::1 at 2021-01-08 01:31:27 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.7ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299035309380'
+
+Started POST "/__better_errors/b1f8ad91c3748ec2/variables" for ::1 at 2021-01-08 01:31:27 +0600
+Started GET "/" for ::1 at 2021-01-08 01:31:29 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.3ms)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299035141500'
+
+Started POST "/__better_errors/83690706c54aac44/variables" for ::1 at 2021-01-08 01:31:29 +0600
+Started GET "/" for ::1 at 2021-01-08 01:31:31 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (12.9ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299035449920'
+
+Started POST "/__better_errors/aae41357b614e192/variables" for ::1 at 2021-01-08 01:31:31 +0600
+Started GET "/" for ::1 at 2021-01-08 01:31:38 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.1ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299021271140'
+
+Started POST "/__better_errors/aee638da39620b7e/variables" for ::1 at 2021-01-08 01:31:38 +0600
+Started GET "/" for ::1 at 2021-01-08 01:31:40 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.3ms)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299073087420'
+
+Started POST "/__better_errors/56581656eb3f01d6/variables" for ::1 at 2021-01-08 01:31:40 +0600
+Started GET "/" for ::1 at 2021-01-08 01:31:43 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.3ms)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299077415140'
+
+Started POST "/__better_errors/fa6feb7574592f04/variables" for ::1 at 2021-01-08 01:31:44 +0600
+Started GET "/" for ::1 at 2021-01-08 01:31:46 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (15.8ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299081037560'
+
+Started POST "/__better_errors/7755e0ecb754973e/variables" for ::1 at 2021-01-08 01:31:46 +0600
+Started GET "/" for ::1 at 2021-01-08 01:31:52 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.8ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (22.9ms)
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299030887320'
+
+Started POST "/__better_errors/ad004f2f83478218/variables" for ::1 at 2021-01-08 01:31:52 +0600
+Started GET "/" for ::1 at 2021-01-08 01:31:55 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.5ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.3ms)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299081182940'
+
+Started POST "/__better_errors/9f10b98734cda73d/variables" for ::1 at 2021-01-08 01:31:55 +0600
+Started GET "/" for ::1 at 2021-01-08 01:31:57 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.6ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (18.5ms)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299077446960'
+
+Started POST "/__better_errors/9869f725a9be57a0/variables" for ::1 at 2021-01-08 01:31:57 +0600
+Started GET "/" for ::1 at 2021-01-08 01:32:00 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (16.7ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299082307680'
+
+Started POST "/__better_errors/1457bdba3099d4c9/variables" for ::1 at 2021-01-08 01:32:00 +0600
+Started GET "/" for ::1 at 2021-01-08 01:32:03 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.7ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299020573480'
+
+Started POST "/__better_errors/2ee27a720042f216/variables" for ::1 at 2021-01-08 01:32:03 +0600
+Started GET "/" for ::1 at 2021-01-08 01:32:11 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (1.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (22.2ms)
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299077019000'
+
+Started POST "/__better_errors/e55b8bda38d6ef67/variables" for ::1 at 2021-01-08 01:32:11 +0600
+Started GET "/" for ::1 at 2021-01-08 01:32:21 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.4ms)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299089533520'
+
+Started POST "/__better_errors/9fa9f13235ecfb9c/variables" for ::1 at 2021-01-08 01:32:21 +0600
+Started GET "/" for ::1 at 2021-01-08 01:32:23 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (18.4ms)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299020966260'
+
+Started POST "/__better_errors/5b21c26c1c2d5acd/variables" for ::1 at 2021-01-08 01:32:24 +0600
+Started GET "/" for ::1 at 2021-01-08 01:32:28 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.9ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (19.4ms)
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299003563020'
+
+Started POST "/__better_errors/a42e34f7590b94cb/variables" for ::1 at 2021-01-08 01:32:28 +0600
+Started GET "/" for ::1 at 2021-01-08 01:32:37 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (13.8ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299089482960'
+
+Started POST "/__better_errors/1f3f6632f7b7733e/variables" for ::1 at 2021-01-08 01:32:37 +0600
+Started GET "/" for ::1 at 2021-01-08 01:32:41 +0600
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (19.0ms)
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299012137000'
+
+Started POST "/__better_errors/26498c8210ec2477/variables" for ::1 at 2021-01-08 01:32:41 +0600
