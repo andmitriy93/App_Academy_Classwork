@@ -1640,3 +1640,20 @@ Sass::SyntaxError - Invalid CSS after "	border-radius": expected ";", was ":":
   app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___942961264919810092_70299012137000'
 
 Started POST "/__better_errors/26498c8210ec2477/variables" for ::1 at 2021-01-08 01:32:41 +0600
+Started GET "/" for ::1 at 2021-01-09 00:41:49 +0600
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/dmitriian/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.6ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.7ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (24.5ms)
+Completed 200 OK in 541ms (Views: 536.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fde58ca6e3c31d4717a23f7f12eabb92cf1c8ae7010c6436043a996515d7d8ed.css?body=1" for ::1 at 2021-01-09 00:41:50 +0600
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2021-01-09 00:41:50 +0600
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2021-01-09 00:41:50 +0600
+Started GET "/assets/new_office.jpg" for ::1 at 2021-01-09 00:41:50 +0600
