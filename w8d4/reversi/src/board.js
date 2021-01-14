@@ -47,7 +47,7 @@ Board.prototype.isValidPos = function (pos) {
 Board.prototype.getPiece = function (pos) {
   if (Board.isValidPos(pos)) {
     if () {
-      
+
     }
   }
 };
