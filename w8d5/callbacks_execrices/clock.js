@@ -21,19 +21,43 @@ class Clock {
 
     _tick() {
         // this.time.setSeconds(this.seconds + 1);
-        // while second < 60 => increment this.seconds
-        // while minutes <=60 => increment this.minutes
-        while (this.seconds < 59) {
-            this.seconds += 1;
-            
-            console.log(this.seconds);
+        // while second < 59 => increment this.seconds
+        // while minutes < 59 => increment this.minutes
+        // while (this.seconds < 59) {
+        //     this.seconds += 1;
+        //     console.log(this.seconds);
+        //     // if (this.seconds === 59) {
+        //     //     this.seconds = 0;
+        //     // };
 
+        // }
+        while (this.seconds < 60) {
+            this.incrementSeconds();
         }
+        
 
 
 
         this.printTime();
-    }
+    };
+
+    incrementSeconds() {
+        this.seconds++;
+        if (this.seconds === 59) {
+            this.seconds = 0;
+        };
+    };
+
+    incrementMinutes() {
+        this.minutes++;
+        if (this.minutes === 59) {
+            this.minutes = 0;
+        };
+    };
+
+    incrementHours() {
+        
+    };
 
 }
 
