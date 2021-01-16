@@ -8,7 +8,7 @@ const reader = readline.createInterface({
 const absurbBubbleSort = function (arr, sortCompletionCallback) {
     const askIfGreaterThan = function (el1, el2, callback) {
         reader.question("Is element_1 > element_2", function (str) {
-            (str === 'yes') ? callback.call(true) : callback.call(false);
+            (str === 'yes') ? callback(true) : callback(false);
         });
         reader.close();
         // let sorted = false;
@@ -19,10 +19,14 @@ const absurbBubbleSort = function (arr, sortCompletionCallback) {
             // });
         // }
     }
+
+    askIfGreaterThan(1,2, (bool) => {
+        console.log(bool ? "true" : "false")
+    })
 }
 
 
 
-absurbBubbleSort([5,1,10,2], () => {
-    console.log(`${callback.call}`)
-})
+// absurbBubbleSort([5,1,10,2], () => {
+//     console.log(`${callback.call}`)
+// })
