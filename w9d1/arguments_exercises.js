@@ -32,7 +32,7 @@ Function.prototype.myBind = function() {
   //     returned function below. That is because, this can refer to say 
   //     a global context if this function is called on a variable 
   //     defined in global scope
-      let self = this; 
+  let self = this; 
   //     arguments built-in variable is not really an array so here we 
   //     convert it into an array using spread operator (...). We can 
   //     instead use Array.from(arguments) as well
@@ -50,7 +50,7 @@ Function.prototype.myBind = function() {
     const total_args = first_args.concat(second_args)
       return self.apply(total_args[0], total_args.slice(1));
       }
-    }
+}
 
 class Cat {
   constructor(name) {
@@ -98,3 +98,26 @@ notMarkovSays("meow", "me");
 // true
 
 
+function curriedSum(numArgs) {
+    const numbers = [];
+
+    function _curriedSum(num) {
+        numbers.push(num);
+        if (numbers.length === numArgs) {
+            let total = 0;
+            for (let i = 0; i < numbers.length; i++) {
+                total += numbers[i];
+            }
+            return total;
+        } else {
+            console.log('curriedSum', _curriedSum);
+            console.log('num', num);
+            return _curriedSum;
+        }
+    }
+
+    return _curriedSum;
+}
+
+const sum = curriedSum(4);
+console.log(sum(5)(30)(20)(1)); // => 56
