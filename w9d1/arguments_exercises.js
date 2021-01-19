@@ -8,84 +8,93 @@
 //     return total;
 // }
 
-function sum(...args) {
-    let total = 0;
+// function sum(...args) {
+//     let total = 0;
 
-    for (let i = 0; i < args.length; i++) {
-        total += args[i];
-    }    
+//     for (let i = 0; i < args.length; i++) {
+//         total += args[i];
+//     }    
 
-    return total;
-}
+//     return total;
+// }
 
 // console.log(sum(1, 2, 3, 4));
 
+``
+Function.prototype.myBind = function() {
+  //     arguments is a built-in variable which contains all the 
+  //     arguments passed to a function. 
+  //     we send our desired context as first argument when calling bind 
+  //     for a function, therefore, here we store that first argument in 
+  //     context for later use
+      
+  //     We store this here as we don't want to call this.apply in the 
+  //     returned function below. That is because, this can refer to say 
+  //     a global context if this function is called on a variable 
+  //     defined in global scope
+      let self = this; 
+  //     arguments built-in variable is not really an array so here we 
+  //     convert it into an array using spread operator (...). We can 
+  //     instead use Array.from(arguments) as well
+  const first_args = Array.from(arguments)
+  //const third_args = [...arguments]
+  //console.log("third", third_args instanceof Array)
 
-Function.prototype.myBind = function(ctx) {
-    let bind = this
-    let boundArgs = Array.prototype.slice.call(arguments, 1);
-
-    return function() {
-        let args = Array.prototype.slice.call(arguments) // args || arguments
-        return bind.apply(new This, boundArgs.concat(args));
+  // bind has to return a function so that's what we are doing here
+  return function() {
+    const second_args = Array.from(arguments)
+  //  Finally, we use apply function on our stored this with first 
+  //  argument as our desired context and our arguments (except the 
+  //  first one which was actually a context). This is how apply 
+  //  works. 
+    const total_args = first_args.concat(second_args)
+      return self.apply(total_args[0], total_args.slice(1));
+      }
     }
+
+class Cat {
+  constructor(name) {
+    this.name = name;
+  }
+
+  says(sound, person) {
+    console.log(`${this.name} says ${sound} to ${person}!`);
+    return true;
+  }
 }
 
-// GitHub
-// Function.prototype.myBind = function(_this, _args){
-//     var that = this
-//     var args = Array.prototype.slice.call(arguments)
-//     return function(){
-//       //console.log(arguments)
-//       var args1 = Array.prototype.slice.call(arguments)
-//       var args2 = args.slice(1, args.length).concat(args1)
-//       that.apply(_this, args2)
-//     }
-//   }
-//   var a = function(){
-//     console.log(this, arguments)
-//   }
-//   a.prototype.haha = function(){
-//     console.log('haha')
-//   }
-//   var b = function(){
-//     var happy = true
-//   }
-//   b.prototype.lol = function(){
-//     console.log('lol')
-//   }
-//   var c = a.myBind(b, 1, 2, 3)
-//   c(4, 5)
-  //Object {happy: true} [1, 2, 3, 4, 5]
-
-
-
-// Monkey Patching
-Function.prototype.myBind = function() {
-    // arguments is a built-in variable which contains all the 
-    // arguments passed to a function. As we already know from Part I, 
-    // we send our desired context as first argument when calling bind 
-    // for a function, therefore, here we store that first argument in 
-    // context for later use
-    let context = arguments[0],
-    
-    // We store this here as we don't want to call this.apply in the 
-    // returned function below. That is because, this can refer to say 
-    // a global context if this function is called on a variable 
-    // defined in global scope
-    self = this,
-    
-    // arguments built-in variable is not really an array so here we 
-    // convert it into an array using spread operator (...). We can 
-    // instead use Array.from(arguments) as well
-    args = [...arguments];
-    // bind has to return a function so that's what we are doing here
-    return function() {
-      // Finally, we use apply function on our stored this with first 
-      // argument as our desired context and our arguments (except the 
-      // first one which was actually a context). This is how apply 
-      // works. See details of apply function if you like to 
-      // understand it's working. 
-      self.apply(context, args.slice(1));
-    }
+class Dog {
+  constructor(name) {
+    this.name = name;
   }
+}
+
+const markov = new Cat("Markov");
+const pavlov = new Dog("Pavlov");
+
+// markov.says("meow", "Ned");
+// Markov says meow to Ned!
+// true
+
+// bind time args are "meow" and "Kush", no call time args
+ markov.says.myBind(pavlov, "meow", "Kush")();
+// Pavlov says meow to Kush!
+// true
+
+// no bind time args (other than context), call time args are "meow" and "a tree"
+markov.says.myBind(pavlov)("meow", "a tree");
+// Pavlov says meow to a tree!
+// true
+
+// bind time arg is "meow", call time arg is "Markov"
+markov.says.myBind(pavlov, "meow")("Markov");
+// Pavlov says meow to Markov!
+// true
+
+// no bind time args (other than context), call time args are "meow" and "me"
+const notMarkovSays = markov.says.myBind(pavlov);
+notMarkovSays("meow", "me");
+// Pavlov says meow to me!
+// true
+
+
