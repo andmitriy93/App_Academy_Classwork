@@ -102,6 +102,7 @@ function curriedSum(numArgs) {
     const numbers = [];
 
     function _curriedSum(num) {
+      
         numbers.push(num);
         if (numbers.length === numArgs) {
             let total = 0;
@@ -110,8 +111,7 @@ function curriedSum(numArgs) {
             }
             return total;
         } else {
-            console.log('curriedSum', _curriedSum);
-            console.log('num', num);
+  
             return _curriedSum;
         }
     }
@@ -119,5 +119,61 @@ function curriedSum(numArgs) {
     return _curriedSum;
 }
 
-const sum = curriedSum(4);
-console.log(sum(5)(30)(20)(1)); // => 56
+// const summed = curriedSum(4);
+//  console.log(sum(5)(30)(20)(1)); // => 56
+
+
+
+
+// Function.prototype.curry = function(numArgs) {
+
+//   const numbers = []; 
+
+//  const that = this;
+
+//  function _curriedSum(num) {
+//       numbers.push(num);
+//   if (numbers.length === numArgs) {
+//       return that(...numbers);
+//   } else {
+//       return _curriedSum;
+//   }
+// }
+//     return _curriedSum;
+
+// }
+// let sums = function(...args){
+//   let sum = 0 
+//   args.forEach(ele => sum += ele) 
+//   return sum;
+// }
+
+//  const sum = (4);
+// console.log(sums.curry(4)(3)(6)(8)(1)); // => 18
+
+Function.prototype.curry = function(numArgs) {
+
+  const numbers = []; 
+
+ const that = this;
+
+ function _curriedSum(num) {
+      numbers.push(num);
+  if (numbers.length === numArgs) {
+      return that.apply(null, numbers);
+  } else {
+      return _curriedSum;
+  }
+}
+    return _curriedSum;
+
+}
+
+let sums = function(...args){
+    let sum = 0 
+    args.forEach(ele => sum += ele) 
+    return sum;
+  }
+
+const sum = (4);
+console.log(sums.curry(4)(3)(6)(8)(1));
