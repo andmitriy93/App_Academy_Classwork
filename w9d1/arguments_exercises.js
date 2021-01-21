@@ -102,7 +102,7 @@ function curriedSum(numArgs) {
     const numbers = [];
 
     function _curriedSum(num) {
-      
+        console.log("num:", num);
         numbers.push(num);
         if (numbers.length === numArgs) {
             let total = 0;
@@ -111,7 +111,7 @@ function curriedSum(numArgs) {
             }
             return total;
         } else {
-  
+            console.log("function", _curriedSum);
             return _curriedSum;
         }
     }
@@ -119,8 +119,8 @@ function curriedSum(numArgs) {
     return _curriedSum;
 }
 
-// const summed = curriedSum(4);
-//  console.log(sum(5)(30)(20)(1)); // => 56
+const summed = curriedSum(4);
+ console.log(summed(5)(30)(20)(1)); // => 56
 
 
 
@@ -175,5 +175,5 @@ let sums = function(...args){
     return sum;
   }
 
-const sum = (4);
-console.log(sums.curry(4)(3)(6)(8)(1));
+// const sum = (4);
+// console.log(sums.curry(4)(3)(6)(8)(1));
