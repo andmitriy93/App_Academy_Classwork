@@ -1,17 +1,17 @@
 const FollowToggle = require('./follow_toggle.js')
 
-// const = Twitter {
 
-  $(document).ready(function() {
-    $('.follow-toggle').each(constructor(i))
-  
+    $( () => {
+        // debugger
+        $('.follow-toggle').each(function(index, el) {
+            new FollowToggle(el);
+    
+        })
+    })
 
-  })
-// }
 
 
 
-module.export = Twitter; 
 
 // <% if current_user.follows?(user) %>
 //   <form action="<%= user_follow_url(user) %>" method="post">

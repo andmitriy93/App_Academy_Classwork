@@ -1,10 +1,10 @@
 // const Twitter = require('./twitter.js')
 
 class FollowToggle {
-    constructor($el) {
-        this.userId = $el.data("user-id");
-        this.followState = $el.data("initial-follow-state");
-
+    constructor(el) {
+        this.userId = $(el).data("user-id");
+        this.followState = $(el).data("initial-follow-state");
+        // debugger
         this.render();
         this.handleClick();
     }
@@ -19,18 +19,20 @@ class FollowToggle {
 
     handleClick() {
         $(".follow-toggle").on('click', e => {
+            debugger
             e.preventDefault();
             $.ajax({
                 method: 'POST',
                 url: '/user/:id/follow',
                 dataType: 'JSON',
-                success: function() {}
+                success: function() {},
+                // failure: function() {}
             })
         })
     }
 
 
 }
-const user1 = new FollowToggle($el);
+
 
 module.exports = FollowToggle;
