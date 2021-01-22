@@ -11,63 +11,55 @@
 
 class FollowToggle {
     constructor($el) {
-        this.userId = $($el).data("user-id");
-        this.followState = $($el).data("initial-follow-state");
+        this.$el = $($el);
+        this.userId = this.$el.data("user-id");
+        this.followState = this.$el.data("initial-follow-state");
         // debugger
         this.render();
-        this.handleClick();
+
+        this.$el.on('click', this.handleClick.bind(this));
     }
 
     render() {
         if (this.followState === 'unfollowed') {
-          console.log("Follow!");
+          this.$el.text("Follow!");
         } else if (this.followState === 'followed') {
-          console.log("Unfollow!");
+        this.$el.text("Unfollow!");
         }
     } 
 
-    handleClick() {
-        $(".follow-toggle").on('click', e => {
-            e.preventDefault();
-            // $el.on('click', e => {
-            //     $(e.target).toggleClass('unfollowed');
-            // })
-            debugger 
-            if (this.followState === 'followed'){ 
-                return  $.ajax({
-                    method: 'POST',
-                    url: '/users/:id/follow',
-                    dataType: 'JSON',
-                    success: function() {
-                        $el.on('click', e => {
-                            $(e.target).toggleClass('unfollowed');
+    handleClick(e) {
+        e.preventDefault();
 
-                        })
-                    }
-                    // failure: function() {}
-                    
-                    // $bucketList.on('click', 'li', (e) => { // on bucketlist put click listener on only li elements
-                    //     $(e.target).toggleClass('complete') // toggles complete class
-                    // })
-                });
+        debugger 
+        if (this.followState === 'unfollowed'){ 
+            $.ajax({
+                method: 'POST',
+                url: `/users/${this.userId}/follow`,
+                dataType: 'JSON',
+                success: () => {
+                    // this.followState.bind(this) 
+                    this.followState = 'followed';
+                    this.render();
+                }
+            });
+        } else {
+            return $.ajax({
+                method: 'DELETE',
+                url: '/users/:id/follow',
+                // data:  ????
+                dataType: 'JSON',
+                success: function () {
+                    console.log('hello!')
+
+                    // $('.toggle-class').html($el);
+                    // re-render ??
+                    // console.log(e)
+                },
                 
-            } else {
-                return $.ajax({
-                    method: 'DELETE',
-                    url: '/users/:id/follow',
-                    // data:  ????
-                    dataType: 'JSON',
-                    success: function () {
-                        console.log('hello!')
-
-                        // $('.toggle-class').html($el);
-                        // re-render ??
-                        // console.log(e)
-                    },
-                    
-                })
-            }
-        });
+            })
+        }
+        
     }
 
 
