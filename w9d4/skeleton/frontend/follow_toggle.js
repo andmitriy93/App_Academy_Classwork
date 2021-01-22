@@ -1,9 +1,9 @@
 // const Twitter = require('./twitter.js')
 
 class FollowToggle {
-    constructor(el) {
-        this.userId = $(el).data("user-id");
-        this.followState = $(el).data("initial-follow-state");
+    constructor($el) {
+        this.userId = $($el).data("user-id");
+        this.followState = $($el).data("initial-follow-state");
         // debugger
         this.render();
         this.handleClick();
@@ -19,16 +19,46 @@ class FollowToggle {
 
     handleClick() {
         $(".follow-toggle").on('click', e => {
-            debugger
             e.preventDefault();
-            $.ajax({
-                method: 'POST',
-                url: '/user/:id/follow',
-                dataType: 'JSON',
-                success: function() {},
-                // failure: function() {}
-            })
-        })
+            // $el.on('click', e => {
+            //     $(e.target).toggleClass('unfollowed');
+            // })
+            debugger 
+            if (this.followState === 'followed'){ 
+                return  $.ajax({
+                    method: 'POST',
+                    url: '/users/:id/follow',
+                    dataType: 'JSON',
+                    success: function() {
+                        $el.on('click', e => {
+                            $(e.target).toggleClass('unfollowed');
+
+                        })
+                    }
+                    // failure: function() {}
+                    
+                    // $bucketList.on('click', 'li', (e) => { // on bucketlist put click listener on only li elements
+                    //     $(e.target).toggleClass('complete') // toggles complete class
+                    // })
+                });
+                
+            } else {
+                return $.ajax({
+                    method: 'DELETE',
+                    url: '/users/:id/follow',
+                    // data:  ????
+                    dataType: 'JSON',
+                    success: function () {
+                        console.log('hello!')
+
+                        // $('.toggle-class').html($el);
+                        // re-render ??
+                        // console.log(e)
+                    },
+                    
+                })
+            }
+        });
     }
 
 
