@@ -35,8 +35,9 @@ function attachDogLinks() {
 }
 
 let nav = document.getElementsByTagName("nav") [0];
-debugger
+// debugger
 nav.addEventListener("mouseenter", handleEnter);
+nav.addEventListener("mouseleave", handlerLeave);
 
 
 function handleEnter() {
@@ -45,7 +46,8 @@ function handleEnter() {
 }
 
 function handlerLeave() {
-
+  const ul = document.querySelector(".drop-down-dog-nav ul");
+  ul.classList.add("drop-down-dog-list")
 }
 
 
