@@ -1,11 +1,10 @@
 {
   "name": "skeleton",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --mode=development --watch"
+    "start": "webpack --watch --mode=development"
   },
   "keywords": [],
   "author": "",
@@ -22,5 +21,6 @@
   },
   "devDependencies": {
     "@webpack-cli/init": "^1.1.2"
-  }
+  },
+  "description": ""
 }
