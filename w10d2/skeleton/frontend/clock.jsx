@@ -15,15 +15,14 @@ class Clock extends React.Component {
     
     tick() {
         this.setState({date: new Date() }, () => this.render());
-        this.id = this.state.date.getTime();
     }
 
     componentDidMount() {
-        setInterval(this.tick, 1000);
+        this.id = setInterval(this.tick, 1000);
     }
 
     componentWillUnmount() {
-        this.id = '';
+        clearInterval(this.id);
     }
 
 
@@ -41,6 +40,9 @@ class Clock extends React.Component {
                         {month[this.state.date.getMonth()]},  
                         {this.state.date.getFullYear()}
                     </div>
+                </div>
+                <br/>
+                <div className='clock'>
                     <h2>Time</h2>
                     <div>
                         {this.state.date.getHours()}: 
