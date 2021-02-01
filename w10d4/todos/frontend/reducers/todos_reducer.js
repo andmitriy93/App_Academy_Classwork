@@ -1,5 +1,6 @@
 import RECEIVE_TODOS from "../actions/todo_actions";
 import RECEIVE_TODO from "../actions/todo_actions";
+import REMOVE_TODO from "../actions/todo_actions";
 
 const initialState = {
   1: {
@@ -28,9 +29,11 @@ const todosReducer = (state = initialState, action) => {
         newState[todo.id] = todo;
       });
       return newState;
+
     case RECEIVE_TODO:
       newState = Object.assign({}, state);
       return (newState[action.todo.id] = action.todo);
+
     case REMOVE_TODO:
       newState = Object.assign({}, state);
       delete newState[action.todo.id];
